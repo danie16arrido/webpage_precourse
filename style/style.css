@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  /*border: 2px dashed green;*/
+}
+.header {
+  /*border: 2px dashed blue;*/
+}
+  .header p {
+    text-align: right;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 33px;
+    color: black;
+    padding-right: 200px; 
+  }
+  .header p::first-letter {
+        font-size: 200%;
+        color: orange;
+  }
+    .navbar {
+      flex:1;
+      padding-right: 60px;
+      /*border: 2px dashed black;*/
+    }
+      div.navbar a {
+          display: inline-block;
+          color: black;
+          padding: 0px 0px 14px 14px;
+          text-decoration: underline;
+          font-family: 'Quicksand', sans-serif;
+          font-weight: bold;
+          float : right;
+      }
+      div.navbar a:hover {
+          color: grey;
+          text-decoration: underline;
+      }
+.content {
+  flex:3;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: auto; 
+}
+  .picture-cover{
+    flex:2.5;
+   /*border: 2px dashed pink; */
+  }
+  .working-area {
+    flex:2.1;
+    display: flex;
+    flex-direction: column;
+    /*border: 2px dashed black;*/
+  }
+    .mycontent { 
+      padding-top: 30px;
+      padding-right:  60px;
+      text-align: justify;
+      text-justify: inter-word;
+      font-family: 'Quicksand', sans-serif;
+      /*border: 2px dashed black;*/
+    }
+    .footer {
+      flex:0.5;
+      padding-right: 60px;
+      padding-top: 10px;
+    }
+    .footer div{
+      float: right;
+      padding-left: 10px;
+    }
+@media screen and (max-width: 600px) {
+  .picture-cover {
+    visibility: hidden;
+    display: none;
+  }
+  .working-area {
+    padding-left: 60px;
+  }
+  .container {
+    background-image: none;
+  }
+}
+/**/
