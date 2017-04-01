@@ -18,6 +18,17 @@ html, body {
 .header {
   /*border: 2px dashed blue;*/
 }
+  .header p {
+    text-align: right;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 33px;
+    color: black;
+    padding-right: 200px; 
+  }
+  .header p::first-letter {
+        font-size: 200%;
+        color: orange;
+  }
     .navbar {
       flex:1;
       padding-right: 60px;
