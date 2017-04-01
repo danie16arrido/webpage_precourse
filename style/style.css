@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /*border: 2px dashed green;*/
+}
+.header {
+  /*border: 2px dashed blue;*/
+}
+    .navbar {
+      flex:1;
+      padding-right: 60px;
+      /*border: 2px dashed black;*/
+    }
+.content {
+  flex:3;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+  .picture-cover{
+    flex:2.5;
+   /*border: 2px dashed pink; */
+  }
+  .working-area {
+    flex:2.1;
+    display: flex;
+    flex-direction: column;
+    /*border: 2px dashed black;*/
+  }
+    .mycontent { 
+      padding-top: 30px;
+      padding-right:  60px;
+      /*border: 2px dashed black;*/
+    }
+    .footer {
+      flex:0.5;
+      padding-right: 60px;
+      padding-top: 10px;
+    }
+/**/
