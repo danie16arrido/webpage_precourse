@@ -81,4 +81,16 @@ html, body {
       float: right;
       padding-left: 10px;
     }
+@media screen and (max-width: 600px) {
+  .picture-cover {
+    visibility: hidden;
+    display: none;
+  }
+  .working-area {
+    padding-left: 60px;
+  }
+  .container {
+    background-image: none;
+  }
+}
 /**/
