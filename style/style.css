@@ -34,6 +34,19 @@ html, body {
       padding-right: 60px;
       /*border: 2px dashed black;*/
     }
+      div.navbar a {
+          display: inline-block;
+          color: black;
+          padding: 0px 0px 14px 14px;
+          text-decoration: underline;
+          font-family: 'Quicksand', sans-serif;
+          font-weight: bold;
+          float : right;
+      }
+      div.navbar a:hover {
+          color: grey;
+          text-decoration: underline;
+      }
 .content {
   flex:3;
   display: flex;
