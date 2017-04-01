@@ -76,4 +76,8 @@ html, body {
       padding-right: 60px;
       padding-top: 10px;
     }
+    .footer div{
+      float: right;
+      padding-left: 10px;
+    }
 /**/
