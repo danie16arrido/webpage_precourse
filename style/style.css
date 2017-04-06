@@ -10,9 +10,8 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/3cpo.jpg");
   background-size: cover;
-  background-position: center;
   /*border: 2px dashed green;*/
 }
 .header {
@@ -38,9 +37,11 @@ html, body {
           display: inline-block;
           color: black;
           padding: 0px 0px 14px 14px;
-          text-decoration: underline;
+          text-decoration: none;
           font-family: 'Quicksand', sans-serif;
           font-weight: bold;
+          font-style: italic;
+          font-size:1.3em;
           float : right;
       }
       div.navbar a:hover {
@@ -65,12 +66,18 @@ html, body {
     /*border: 2px dashed black;*/
   }
     .mycontent { 
-      padding-top: 30px;
+      padding-top: 50px;
       padding-right:  60px;
       text-align: justify;
       text-justify: inter-word;
       font-family: 'Quicksand', sans-serif;
       /*border: 2px dashed black;*/
+    }
+    .mycontent p {
+      color: #164854;
+      margin-top: 0em;
+      margin-bottom: 2em;
+
     }
     .footer {
       flex:0.5;
@@ -81,7 +88,7 @@ html, body {
       float: right;
       padding-left: 10px;
     }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .picture-cover {
     visibility: hidden;
     display: none;
@@ -92,5 +99,25 @@ html, body {
   .container {
     background-image: none;
   }
+  .header {
+    background-image: url("../img/3cp.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 2px dashed grey;
+    -webkit-border-top-left-radius: 80px;
+    -webkit-border-bottom-right-radius: 80px;
+    -moz-border-radius-topleft: 80px;
+    -moz-border-radius-bottomright: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+
+
+  }
+}
+.holamundo {
+  background-color: blue;
+  padding-bottom: 10px
+  border:1px solid orange;
 }
 /**/
